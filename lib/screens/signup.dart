@@ -1,11 +1,12 @@
-import 'package:findmychild/components/buttons.dart';
-import 'package:findmychild/components/loading_page.dart';
-import 'package:findmychild/components/textfield.dart';
-import 'package:findmychild/controller/auth_controller.dart';
-import 'package:findmychild/screens/sign_in.dart';
+import 'package:findconnect/screens/sign_in.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/material.dart';
+
+import '../components/buttons.dart';
+import '../components/loading_page.dart';
+import '../components/textfield.dart';
+import '../controller/auth_controller.dart';
 
 class Sign_up extends ConsumerStatefulWidget {
   static route() => MaterialPageRoute(builder: (context) => const Sign_up());

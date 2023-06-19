@@ -1,11 +1,12 @@
 import 'package:appwrite/appwrite.dart';
 import 'package:appwrite/models.dart';
-import 'package:findmychild/core/core.dart';
-import 'package:findmychild/core/providers.dart';
-import 'package:findmychild/data/postModel.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
 import '../authentication/const.dart';
+import '../core/failure.dart';
+import '../core/providers.dart';
+import '../core/type_def.dart';
+import '../data/postModel.dart';
 
 final tweetApiProvider = Provider((ref) {
   return TweetApi(

@@ -1,6 +1,7 @@
-import 'package:findmychild/data/user_model.dart';
-import 'package:findmychild/screens/profile.dart';
+import 'package:findconnect/screens/profile.dart';
 import 'package:flutter/material.dart';
+
+import '../data/user_model.dart';
 
 class SearchTile extends StatelessWidget {
   final UserModel userModel;

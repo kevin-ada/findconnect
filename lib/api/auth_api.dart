@@ -1,9 +1,12 @@
 import 'package:appwrite/models.dart' as model;
 import 'package:appwrite/appwrite.dart';
-import 'package:findmychild/core/core.dart';
-import 'package:findmychild/core/providers.dart';
+
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
+
+import '../core/failure.dart';
+import '../core/providers.dart';
+import '../core/type_def.dart';
 
 final AuthApiProvider = Provider((ref) {
   final account = AppwriteAccountProvider;

@@ -1,8 +1,9 @@
-import 'package:findmychild/components/loading_page.dart';
-import 'package:findmychild/controller/auth_controller.dart';
-import 'package:findmychild/screens/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import '../controller/auth_controller.dart';
+import '../screens/profile.dart';
+import 'loading_page.dart';
 
 class SideDrawer extends ConsumerWidget {
   const SideDrawer({

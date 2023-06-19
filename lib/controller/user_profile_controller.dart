@@ -1,7 +1,7 @@
-import 'package:findmychild/api/storage_api.dart';
-import 'package:findmychild/api/post_api.dart';
-import 'package:findmychild/api/user_api.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../api/post_api.dart';
+import '../api/storage_api.dart';
+import '../api/user_api.dart';
 import '../core/utils.dart';
 import '../data/postModel.dart';
 import 'package:flutter/material.dart';

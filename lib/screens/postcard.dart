@@ -1,20 +1,20 @@
 import 'package:any_link_preview/any_link_preview.dart';
-import 'package:findmychild/components/carousel.dart';
-import 'package:findmychild/components/hashtags.dart';
-import 'package:findmychild/controller/auth_controller.dart';
-import 'package:findmychild/controller/post_controller.dart';
-import 'package:findmychild/enum/enum_publish.dart';
-import 'package:findmychild/screens/profile.dart';
-import 'package:findmychild/screens/reply_screen.dart';
-import 'package:findmychild/screens/Posticons.dart';
+import 'package:findconnect/screens/profile.dart';
+import 'package:findconnect/screens/reply_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:like_button/like_button.dart';
 import 'package:timeago/timeago.dart' as timeago;
+import '../components/carousel.dart';
 import '../components/error.dart';
+import '../components/hashtags.dart';
 import '../components/loading_page.dart';
+import '../controller/auth_controller.dart';
+import '../controller/post_controller.dart';
 import '../data/postModel.dart';
+import '../enum/enum_publish.dart';
+import 'Posticons.dart';
 
 class TweetCard extends ConsumerWidget {
   final Tweet tweet;

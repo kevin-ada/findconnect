@@ -1,14 +1,14 @@
-import 'package:findmychild/data/user_model.dart';
-import 'package:findmychild/screens/home.dart';
-import 'package:findmychild/screens/sign_in.dart';
-import 'package:findmychild/screens/signup.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:appwrite/models.dart' as model;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:findmychild/api/user_api.dart';
 import '../api/auth_api.dart';
+import '../api/user_api.dart';
 import '../core/utils.dart';
+import '../data/user_model.dart';
+import '../screens/home.dart';
+import '../screens/sign_in.dart';
+import '../screens/signup.dart';
 
 final authControllerProvider =
     StateNotifierProvider<Authcotroller, bool>((ref) {

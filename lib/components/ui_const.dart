@@ -1,6 +1,6 @@
-import 'package:findmychild/post/post_list.dart';
 import 'package:flutter/material.dart';
 
+import '../post/post_list.dart';
 import '../screens/expolore.dart';
 import '../screens/getNotification.dart';
 

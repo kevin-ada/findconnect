@@ -1,8 +1,9 @@
-import 'package:findmychild/components/side_drawer.dart';
-import 'package:findmychild/components/ui_const.dart';
-import 'package:findmychild/post/create_post.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+
+import '../components/side_drawer.dart';
+import '../components/ui_const.dart';
+import '../post/create_post.dart';
 
 class Home extends StatefulWidget {
   @override

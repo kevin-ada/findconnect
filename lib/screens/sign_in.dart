@@ -1,11 +1,11 @@
-import 'package:findmychild/components/buttons.dart';
-import 'package:findmychild/components/textfield.dart';
-import 'package:findmychild/screens/signup.dart';
+import 'package:findconnect/screens/signup.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../components/buttons.dart';
 import '../components/loading_page.dart';
+import '../components/textfield.dart';
 import '../controller/auth_controller.dart';
 
 class Login_view extends ConsumerStatefulWidget {

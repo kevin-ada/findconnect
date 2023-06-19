@@ -1,8 +1,8 @@
-import 'package:findmychild/components/error.dart';
-import 'package:findmychild/screens/search.dart';
+import 'package:findconnect/screens/search.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../components/error.dart';
 import '../components/loading_page.dart';
 import '../controller/discover_controller.dart';
 

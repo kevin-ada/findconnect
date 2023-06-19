@@ -1,11 +1,11 @@
 import 'dart:io';
-import 'package:findmychild/controller/auth_controller.dart';
-import 'package:findmychild/controller/user_profile_controller.dart';
-import 'package:findmychild/core/utils.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/material.dart';
 
 import '../components/loading_page.dart';
+import '../controller/auth_controller.dart';
+import '../controller/user_profile_controller.dart';
+import '../core/utils.dart';
 
 class EditProfileView extends ConsumerStatefulWidget {
   static route() =>

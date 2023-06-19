@@ -1,11 +1,11 @@
-import 'package:findmychild/components/error.dart';
-import 'package:findmychild/controller/user_profile_controller.dart';
-import 'package:findmychild/data/user_model.dart';
-import 'package:findmychild/screens/user.dart';
+import 'package:findconnect/screens/user.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../authentication/const.dart';
+import '../components/error.dart';
+import '../controller/user_profile_controller.dart';
+import '../data/user_model.dart';
 
 class UserProfile extends ConsumerWidget {
   static route(UserModel userModel) => MaterialPageRoute(

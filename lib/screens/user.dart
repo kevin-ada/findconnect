@@ -1,12 +1,13 @@
-import 'package:findmychild/components/error.dart';
-import 'package:findmychild/components/loading_page.dart';
-import 'package:findmychild/controller/auth_controller.dart';
-import 'package:findmychild/controller/user_profile_controller.dart';
-import 'package:findmychild/data/user_model.dart';
-import 'package:findmychild/screens/edit_profile_view.dart';
-import 'package:findmychild/screens/postcard.dart';
+import 'package:findconnect/screens/postcard.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/material.dart';
+
+import '../components/error.dart';
+import '../components/loading_page.dart';
+import '../controller/auth_controller.dart';
+import '../controller/user_profile_controller.dart';
+import '../data/user_model.dart';
+import 'edit_profile_view.dart';
 
 class Profile extends ConsumerWidget {
   final UserModel user;

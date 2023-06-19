@@ -1,11 +1,12 @@
 import 'dart:io';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:findmychild/components/loading_page.dart';
-import 'package:findmychild/controller/auth_controller.dart';
-import 'package:findmychild/controller/post_controller.dart';
-import 'package:findmychild/core/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import '../components/loading_page.dart';
+import '../controller/auth_controller.dart';
+import '../controller/post_controller.dart';
+import '../core/utils.dart';
 
 class CreatePost extends ConsumerStatefulWidget {
   static route() => MaterialPageRoute(builder: (context) => const CreatePost());

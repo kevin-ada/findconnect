@@ -1,6 +1,7 @@
-import 'package:findmychild/components/hashtagview.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+
+import 'hashtagview.dart';
 
 class HashtagText extends StatelessWidget {
   final String text;

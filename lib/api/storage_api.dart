@@ -1,9 +1,9 @@
 import 'dart:io';
-
 import 'package:appwrite/appwrite.dart';
-import 'package:findmychild/authentication/const.dart';
-import 'package:findmychild/core/providers.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import '../authentication/const.dart';
+import '../core/providers.dart';
 
 final StorageApiProvider = Provider((ref) {
   return StorageApi(storage: ref.watch(appwriteStorageProvider));

@@ -1,8 +1,7 @@
-import 'package:findmychild/data/notification_Model.dart';
-import 'package:findmychild/enum/notification_enum.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
 import '../api/notification.dart';
+import '../data/notification_Model.dart';
+import '../enum/notification_enum.dart';
 
 final notificationControllerProvider =
     StateNotifierProvider<NotificationController, bool>((ref) {

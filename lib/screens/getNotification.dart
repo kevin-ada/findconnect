@@ -1,12 +1,12 @@
-import 'package:findmychild/authentication/const.dart';
-import 'package:findmychild/controller/auth_controller.dart';
-import 'package:findmychild/controller/notificationContoller.dart';
-import 'package:findmychild/data/notification_Model.dart' as model;
-import 'package:findmychild/post/notificationview.dart';
+import 'package:findconnect/data/notification_Model.dart' as model;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../authentication/const.dart';
 import '../components/error.dart';
 import '../components/loading_page.dart';
+import '../controller/auth_controller.dart';
+import '../controller/notificationContoller.dart';
+import '../post/notificationview.dart';
 
 class NotificationView extends ConsumerWidget {
   const NotificationView({super.key});

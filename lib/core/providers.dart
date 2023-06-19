@@ -1,6 +1,7 @@
 import 'package:appwrite/appwrite.dart';
-import 'package:findmychild/authentication/const.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import '../authentication/const.dart';
 
 final appwriteClientProvider = Provider((ref) {
   Client client = Client();

@@ -1,12 +1,12 @@
-import 'package:findmychild/components/error.dart';
-import 'package:findmychild/components/loading_page.dart';
-import 'package:findmychild/controller/post_controller.dart';
-import 'package:findmychild/data/postModel.dart';
-import 'package:findmychild/screens/postcard.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../authentication/const.dart';
+import '../components/error.dart';
+import '../components/loading_page.dart';
+import '../controller/post_controller.dart';
+import '../data/postModel.dart';
+import '../screens/postcard.dart';
 
 class TweetList extends ConsumerWidget {
   const TweetList({super.key});

@@ -1,15 +1,14 @@
 import 'dart:io';
-import 'package:findmychild/api/notification.dart';
-import 'package:findmychild/api/storage_api.dart';
-import 'package:findmychild/api/post_api.dart';
-import 'package:findmychild/controller/auth_controller.dart';
-import 'package:findmychild/core/utils.dart';
-import 'package:findmychild/data/postModel.dart';
-import 'package:findmychild/data/user_model.dart';
-import 'package:findmychild/enum/notification_enum.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../api/post_api.dart';
+import '../api/storage_api.dart';
+import '../core/utils.dart';
+import '../data/postModel.dart';
+import '../data/user_model.dart';
 import '../enum/enum_publish.dart';
+import '../enum/notification_enum.dart';
+import 'auth_controller.dart';
 import 'notificationContoller.dart';
 
 final tweetControllerProvider =
